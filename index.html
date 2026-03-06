@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Citizen — Smarter Solutions for the Public Good</title>
+  <meta name="description" content="Electric Citizen builds accessible, AI-powered digital solutions for government and higher education. Websites, custom tools, system integrations, and more. Based in Minneapolis. Trusted nationwide.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#" class="logo" aria-label="Electric Citizen home">
+        <svg class="logo-icon" width="34" height="48" viewBox="0 0 34 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.6698 0L0 25.9524H12.6831V46.2278L33.3828 20.3054H20.6698V0Z" fill="url(#logoGrad1)"/>
+          <path d="M33.3826 12.045H25.4258V15.7697H33.3826V12.045Z" fill="url(#logoGrad2)"/>
+          <path d="M33.3826 4.32538H25.4258V8.05004H33.3826V4.32538Z" fill="url(#logoGrad3)"/>
+          <defs>
+            <linearGradient id="logoGrad1" x1="0" y1="23" x2="33.4" y2="23" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F0B61B"/><stop offset="0.365" stop-color="#EFB31C"/><stop offset="0.632" stop-color="#EAAA1F"/><stop offset="0.866" stop-color="#E39A24"/><stop offset="1" stop-color="#DD8D28"/>
+            </linearGradient>
+            <linearGradient id="logoGrad2" x1="25.4" y1="13.9" x2="33.4" y2="13.9" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/>
+            </linearGradient>
+            <linearGradient id="logoGrad3" x1="25.4" y1="6.2" x2="33.4" y2="6.2" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-text">ELECTRIC<br>CITIZEN</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#approach">How We Work</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#work">Our Work</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact" class="btn btn-sm btn-gold">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge">Friendly humans serving government &amp; higher ed since 2012</div>
+      <h1>We solve hard problems<br>for the people who <em>serve</em> the public.</h1>
+      <p class="hero-sub"><strong>Enterprise Drupal.</strong> Strategy. Design. WordPress. React. Custom software. Data integrations. For 14 years, government agencies and universities have trusted us with the digital work that matters most. <strong>AI has changed what's possible.</strong> We're building accordingly.</p>
+      <div class="hero-actions">
+        <a href="#solutions" class="btn btn-gold">What We Build</a>
+        <a href="#approach" class="btn btn-outline-light">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-bg" aria-hidden="true">
+      <svg viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0 600V200C240 80 480 0 720 40C960 80 1200 200 1440 160V600H0Z" fill="url(#heroGrad)" opacity="0.06"/>
+        <defs>
+          <linearGradient id="heroGrad" x1="0" y1="0" x2="1440" y2="600">
+            <stop offset="0%" stop-color="#F0B61B"/>
+            <stop offset="100%" stop-color="#DD8D28"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </header>
+
+  <!-- TRUST BAR: Government -->
+  <section class="trust-bar">
+    <div class="container">
+      <p class="trust-label">Trusted by government agencies nationwide</p>
+      <div class="trust-logos">
+        <img src="images/mdh.png" alt="Minnesota Department of Health logo" loading="lazy">
+        <img src="images/madison.png" alt="City of Madison logo" loading="lazy">
+        <img src="images/santabarbara.png" alt="City of Santa Barbara logo" loading="lazy">
+        <img src="images/stpaul.png" alt="City of Saint Paul logo" loading="lazy">
+        <img src="images/bloomington.png" alt="City of Bloomington logo" class="logo-invert" loading="lazy">
+        <img src="images/mpca.png" alt="MN Pollution Control Agency logo" loading="lazy">
+        <img src="images/mndor.png" alt="MN Department of Revenue logo" loading="lazy">
+        <img src="images/deed.png" alt="MN DEED logo" class="logo-invert" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR: Higher Ed -->
+  <section class="trust-bar trust-bar-light">
+    <div class="container">
+      <p class="trust-label">Partnering with leading universities and colleges</p>
+      <div class="trust-logos">
+        <img src="images/emory.png" alt="Emory University logo" loading="lazy">
+        <img src="images/gatech.png" alt="Georgia Tech logo" loading="lazy">
+        <img src="images/umn.png" alt="University of Minnesota logo" loading="lazy">
+        <img src="images/uiowa.png" alt="University of Iowa logo" loading="lazy">
+        <img src="images/ndsu.png" alt="NDSU logo" loading="lazy">
+        <img src="images/uwmadison.png" alt="University of Wisconsin Madison logo" class="logo-invert" loading="lazy">
+        <img src="images/uwstout.png" alt="University of Wisconsin Stout logo" class="logo-invert" loading="lazy">
+        <img src="images/mctc.png" alt="Minneapolis College logo" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- THE WEB CHANGED -->
+  <section class="section section-origin">
+    <div class="container container-narrow">
+      <div class="display-heading">
+        <span class="display-heading__line">The web changed.</span>
+        <span class="display-heading__line"><span class="display-heading__highlight">Most agencies didn't.</span></span>
+      </div>
+      <p>Our founders have been building the web since 1994. We hand-coded HTML before CSS existed. We built custom content management systems before the term CMS was invented. We've been deep in Drupal for over 20 years &mdash; because it remains one of the most battle-tested solutions in the world. It is still our favorite for many situations.</p>
+      <p>But we have seen the web go from static pages to dynamic applications to cloud platforms to mobile-first to AI. Every time the tools changed, we adapted &mdash; because we've always cared about the same thing: <strong>finding the right solution for the problem.</strong></p>
+      <div class="section-bridge">
+        <span class="section-bridge__text">That hasn't changed.</span>
+      </div>
+      <p>What has changed is who we get to be. For decades, we were the builders &mdash; the developers, the strategists, the designers, the ones who made it work. AI hasn't replaced that. It's elevated it. Now we're the thinkers, the strategists, the experts who harness these tools in ways most people are still figuring out. Less time on what machines do well. More time on what we do best.</p>
+    </div>
+  </section>
+
+  <!-- THE HONEST TRUTH -->
+  <section class="section section-honest">
+    <div class="container container-narrow">
+      <h2>Here's what we've accepted.</h2>
+      <div class="honest-grid">
+        <div class="honest-item">
+          <div class="honest-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M12 28l-4-4h6l4-8 4 10 4-6 4 4h6" stroke="url(#hg1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="hg1" x1="8" y1="20" x2="36" y2="20"><stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/></linearGradient></defs></svg>
+          </div>
+          <h3>Better code.</h3>
+          <p>AI writes cleaner, more consistent code than most developers on the planet &mdash; faster than any human team could.</p>
+        </div>
+        <div class="honest-item">
+          <div class="honest-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 6v14l8 4" stroke="url(#hg2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="20" r="14" stroke="url(#hg2)" stroke-width="2"/><defs><linearGradient id="hg2" x1="6" y1="6" x2="34" y2="34"><stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/></linearGradient></defs></svg>
+          </div>
+          <h3>Tireless QA.</h3>
+          <p>AI runs more thorough testing than the best QA teams. It doesn't get tired. It doesn't skip edge cases at 4pm on a Friday.</p>
+        </div>
+        <div class="honest-item">
+          <div class="honest-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M8 20a12 12 0 1124 0 12 12 0 01-24 0z" stroke="url(#hg3)" stroke-width="2"/><path d="M20 14v6M16 26h8" stroke="url(#hg3)" stroke-width="2.5" stroke-linecap="round"/><circle cx="20" cy="20" r="2" fill="url(#hg3)"/><defs><linearGradient id="hg3" x1="8" y1="8" x2="32" y2="32"><stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/></linearGradient></defs></svg>
+          </div>
+          <h3>Zero downtime.</h3>
+          <p>AI doesn't take vacations, doesn't lose context between sprints, and doesn't need three meetings to get aligned.</p>
+        </div>
+      </div>
+      <p class="honest-punchline"><svg class="bolt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Most agencies see that as a threat. We see it as the best thing that ever happened to a team like ours.</p>
+      <h3 class="honest-headline">You still need the humans. We are those humans.</h3>
+      <p>AI can write and test code all day. But it doesn't know about the 10,000 PDFs nobody's touched since 2014, the content mess three redesigns never fixed, the legacy platform your whole department still depends on, or the five aging websites that somehow need to become one. It doesn't know which tools could actually make your team's life easier. That takes 30 years of building on the web. That takes knowing how government bureaucracy works, how higher ed stakeholders think, how security and accessibility standards actually apply in the real world, and what happens when software meets people.</p>
+      <div class="honest-closer"><svg class="bolt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> AI is the most powerful tool we've ever had. And we've spent three decades learning exactly how to use it.</div>
+    </div>
+  </section>
+
+  <!-- THE PAIN -->
+  <section class="section section-problem">
+    <div class="container container-narrow">
+      <div class="display-heading">
+        <span class="display-heading__line">We know what you're</span>
+        <span class="display-heading__line"><span class="display-heading__highlight">dealing with.</span></span>
+      </div>
+      <p>Three systems that don't talk to each other. Staff copying data between spreadsheets because nobody ever built the bridge. A compliance audit that eats two weeks every quarter. An enrollment process with six steps that could be two. A website redesign that was supposed to take eight months and it's been two years.</p>
+      <p>These are the problems that keep public sector leaders up at night. And until recently, solving them meant six-figure custom software projects, 18-month timelines, and outcomes nobody could guarantee. Only the biggest agencies with the biggest budgets could even attempt it.</p>
+      <div class="section-bridge">
+        <span class="section-bridge__text">That's not the case anymore.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section section-approach" id="approach">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">How We Work</span>
+        <h2>AI-first.<br>Human-verified results.</h2>
+        <p>We use AI to go deeper, not to cut corners. More testing. More iterations. Solutions we couldn't have built a year ago. And senior developers verifying every piece of it.</p>
+      </div>
+
+      <div class="approach-flow">
+        <!-- Phase 1: Build (2x2) -->
+        <div class="approach-phase approach-phase--build">
+          <div class="approach-phase-label">Build</div>
+          <div class="approach-grid approach-grid-2x2">
+            <div class="approach-card">
+              <div class="approach-num">Step 01</div>
+              <h3>Listen First</h3>
+              <p>Every engagement starts with <strong>humans</strong> &mdash; understanding your operations, your pain points, and the outcomes you actually need. We've done this for 14 years. AI doesn't replace it.</p>
+            </div>
+            <div class="approach-card">
+              <div class="approach-num">Step 02</div>
+              <h3>Plan and Prototype</h3>
+              <p>We use custom agents and tools to help us strategize and plan. Multiple scenarios and working prototypes in days, not months. You see and test real solutions before committing to a full build. Less risk. Better outcomes.</p>
+            </div>
+            <div class="approach-card">
+              <div class="approach-num">Step 03</div>
+              <h3>Build with AI, Verify with Humans</h3>
+              <p>AI writes the code. Our senior developers review every line. A swarm of QA agents provide end-to-end testing. Our team verifies every result. You get the speed of AI with the judgment of experience.</p>
+            </div>
+            <div class="approach-card">
+              <div class="approach-num">Step 04</div>
+              <h3>Test Everything</h3>
+              <p>AI-generated test suites cover functionality, accessibility, performance, security, and cross-browser compatibility. Problems get caught before your users ever see them.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Connector arrow -->
+        <div class="approach-connector" aria-hidden="true">
+          <svg width="40" height="56" viewBox="0 0 40 56" fill="none">
+            <line x1="20" y1="0" x2="20" y2="40" stroke="var(--gray-300)" stroke-width="2" stroke-dasharray="4 4"/>
+            <path d="M12 36l8 12 8-12" fill="var(--gold)" opacity="0.7"/>
+          </svg>
+        </div>
+
+        <!-- Phase 2: Launch (single centered) -->
+        <div class="approach-phase approach-phase--ship">
+          <div class="approach-phase-label">Ship</div>
+          <div class="approach-launch">
+            <div class="approach-card approach-card-launch">
+              <div class="approach-num">Step 05</div>
+              <h3>Launch</h3>
+              <p>Deployment pipelines, environment provisioning, monitoring &mdash; all automated, all tested. Your site goes live with confidence, not crossed fingers.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Connector arrow -->
+        <div class="approach-connector" aria-hidden="true">
+          <svg width="40" height="56" viewBox="0 0 40 56" fill="none">
+            <line x1="20" y1="0" x2="20" y2="40" stroke="var(--gray-300)" stroke-width="2" stroke-dasharray="4 4"/>
+            <path d="M12 36l8 12 8-12" fill="var(--gold)" opacity="0.7"/>
+          </svg>
+        </div>
+
+        <!-- Phase 3: Sustain (2-up) -->
+        <div class="approach-phase approach-phase--sustain">
+          <div class="approach-phase-label">Sustain</div>
+          <div class="approach-grid approach-grid-2x2">
+            <div class="approach-card">
+              <div class="approach-num">Step 06</div>
+              <h3>Maintain &amp; Support</h3>
+              <p>Security patches, dependency updates, uptime monitoring, and proactive maintenance. We keep your systems healthy so your team can focus on their actual jobs.</p>
+            </div>
+            <div class="approach-card">
+              <div class="approach-num">Step 07</div>
+              <h3>Continuous Improvement</h3>
+              <p>AI already understands your codebase implicitly. That means faster iterations, smarter recommendations, and improvements that build on everything that came before. Your investment compounds over time.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Connector arrow -->
+        <div class="approach-connector" aria-hidden="true">
+          <svg width="40" height="56" viewBox="0 0 40 56" fill="none">
+            <line x1="20" y1="0" x2="20" y2="40" stroke="var(--gray-300)" stroke-width="2" stroke-dasharray="4 4"/>
+            <path d="M12 36l8 12 8-12" fill="var(--gold)" opacity="0.7"/>
+          </svg>
+        </div>
+
+        <!-- Phase 4: Repeat -->
+        <div class="approach-phase approach-phase--next">
+          <div class="approach-phase-label">Repeat</div>
+          <div class="approach-launch">
+            <div class="approach-card approach-card-next">
+              <div class="approach-num">Step 08</div>
+              <h3>What's Next?</h3>
+              <p>The best partnerships don't end at launch. Once we know your systems, your team, and your goals, the next project moves even faster. New tools. New integrations. New ideas &mdash; built on a foundation we've already laid together.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Parked for now -->
+      <div class="approach-grid approach-grid-2x2 approach-grid-secondary" style="display:none;">
+        <div class="approach-card">
+          <h3>Right Tool for the Job</h3>
+          <p>Drupal, React, Python, custom APIs &mdash; we recommend what solves your problem, not what's easiest for us. AI makes our team fluent across technologies.</p>
+        </div>
+        <div class="approach-card">
+          <h3>Secure &amp; Governed</h3>
+          <p>Security isn't an afterthought &mdash; it's in every decision we make. No client data enters AI training. Hardened hosting, dependency audits, penetration testing, and security patching are standard. Full compliance with FERPA, Section 508, and state privacy laws. You'll always know exactly where AI fits in our process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BY THE NUMBERS -->
+  <section class="section section-numbers">
+    <div class="container">
+      <div class="numbers-grid">
+        <div class="number-card">
+          <div class="number-value">14<span>yr</span></div>
+          <div class="number-label">Serving government &amp; higher ed</div>
+        </div>
+        <div class="number-card">
+          <div class="number-value">50<span>+</span></div>
+          <div class="number-label">Public sector projects delivered</div>
+        </div>
+        <div class="number-card">
+          <div class="number-value">3x</div>
+          <div class="number-label">Faster prototyping with AI-assisted development</div>
+        </div>
+        <div class="number-card">
+          <div class="number-value">100<span>%</span></div>
+          <div class="number-label">WCAG compliant, every build</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS -->
+  <section class="section section-solutions" id="solutions">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">What We Build</span>
+        <h2>Bring your dreams to reality.</h2>
+        <p>We've always built great websites. Now we solve the harder problems, too &mdash; custom software and tools, integrations, and workflows that make organizations actually run better.</p>
+      </div>
+
+      <div class="solutions-grid">
+
+        <!-- Flagship: Custom Solutions -->
+        <div class="solution-card solution-flagship">
+          <div class="solution-icon">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
+              <rect x="4" y="8" width="48" height="40" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 28l6 6 12-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="4" y1="16" x2="52" y2="16" stroke="currentColor" stroke-width="2"/>
+              <circle cx="10" cy="12" r="1.5" fill="currentColor"/><circle cx="15" cy="12" r="1.5" fill="currentColor"/><circle cx="20" cy="12" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="solution-flagship-body">
+            <span class="solution-tag">Solutions</span>
+            <h3>Custom Solutions for Every Challenge</h3>
+            <p>The tools your team actually needs &mdash; built fast, tested thoroughly, designed for your specific workflows. Data dashboards. Internal portals. Constituent service tools. Case management systems. No more paying for expensive SaaS that doesn't quite fit &mdash; we build exactly what you need.</p>
+            <ul class="solution-list">
+              <li>Internal workflow automation</li>
+              <li>Data dashboards &amp; reporting tools</li>
+              <li>Constituent/student self-service portals</li>
+              <li>Case management &amp; tracking systems</li>
+              <li>SEO audits &amp; search optimization</li>
+              <li>Digital strategy &amp; content marketing</li>
+              <li>Analytics, reporting &amp; conversion tracking</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Websites (core) -->
+        <div class="solution-card">
+          <div class="solution-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="8" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+              <line x1="6" y1="14" x2="42" y2="14" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="10" y="18" width="12" height="8" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="26" y1="18" x2="38" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="26" y1="22" x2="34" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="26" y1="26" x2="36" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M18 40h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M24 36v4" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Enterprise Websites &amp; CMS</h3>
+          <p><strong>Enterprise Drupal</strong>, WordPress, headless CMS &mdash; accessible, security-hardened, and built to last. Every build includes dependency audits, role-based access controls, and proactive monitoring. Drupal Certified Partner. Pantheon Premier. Acquia Preferred.</p>
+        </div>
+
+        <!-- System Integration -->
+        <div class="solution-card">
+          <div class="solution-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <circle cx="12" cy="12" r="6" stroke="currentColor" stroke-width="2"/><circle cx="36" cy="12" r="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="12" cy="36" r="6" stroke="currentColor" stroke-width="2"/><circle cx="36" cy="36" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 12h12M12 18v12M36 18v12M18 36h12" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+          <h3>System Integration</h3>
+          <p>Connect the systems that don't talk to each other. Banner, Slate, Salesforce, legacy databases, state reporting systems &mdash; we build the bridges so your staff stops being the middleware.</p>
+        </div>
+
+        <!-- Automation -->
+        <div class="solution-card">
+          <div class="solution-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <path d="M8 24h8l4-8 4 16 4-12 4 6h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+            </svg>
+          </div>
+          <h3>Workflow Automation</h3>
+          <p>Automate the tedious stuff. Compliance checks, report generation, data entry, approvals, notifications. Free your people to do the work that actually requires a human.</p>
+        </div>
+
+        <!-- AI Integration -->
+        <div class="solution-card">
+          <div class="solution-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <rect x="12" y="8" width="24" height="20" rx="4" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="18" r="2" fill="currentColor"/><circle cx="28" cy="18" r="2" fill="currentColor"/>
+              <path d="M20 23h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M18 28v6h4v-3h4v3h4v-6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M10 14h-2v8h2M38 14h2v8h-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>AI for Your Organization</h3>
+          <p>Intelligent search for your website. Chatbots that actually help constituents. Content tools that save your editors hours. AI governance policies that keep you compliant.</p>
+        </div>
+
+        <!-- Accessibility -->
+        <div class="solution-card">
+          <div class="solution-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/>
+              <circle cx="24" cy="14" r="3" fill="currentColor"/>
+              <path d="M16 20l8 2 8-2M24 22v8M18 38l6-8 6 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Security, Accessibility &amp; Compliance</h3>
+          <p>AI-powered WCAG auditing plus human expert review. Security hardening, vulnerability scanning, and incident response planning baked into every build. Section 508. FERPA. FedRAMP-aligned hosting. State privacy laws. We don't just check boxes &mdash; we build systems your security team can trust.</p>
+        </div>
+
+        <!-- Analytics, SEO & Content Strategy -->
+        <div class="solution-card">
+          <div class="solution-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="6" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2"/>
+              <rect x="12" y="28" width="6" height="10" rx="1" fill="currentColor" opacity="0.3"/>
+              <rect x="21" y="22" width="6" height="16" rx="1" fill="currentColor" opacity="0.5"/>
+              <rect x="30" y="14" width="6" height="24" rx="1" fill="currentColor" opacity="0.7"/>
+              <path d="M12 20l6-4 6 2 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="36" cy="12" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Analytics, SEO &amp; Content Strategy</h3>
+          <p>We've always known this work. Now it's a core offering. AI-powered site audits, technical SEO, search analytics, content gap analysis, and ongoing content strategy. Real data driving real decisions &mdash; not vanity metrics in a monthly PDF.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE HARD STUFF CALLOUT -->
+  <section class="section section-callout">
+    <div class="container container-narrow">
+      <blockquote class="callout">
+        <p>"Can you connect our enrollment system to our CRM and generate the compliance reports automatically?"</p>
+        <p>"Can you build a tool that lets case workers track and share client data across three departments &mdash; securely?"</p>
+        <p>"Can you automate the 40 hours a month we spend generating board reports from five different data sources?"</p>
+        <cite>The answer used to be: "Not without a huge budget and a long timeline."<br><strong><svg class="bolt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Now the answer is yes.</strong></cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- WORK / CASE STUDIES -->
+  <section class="section section-work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Our Work</span>
+        <h2>Projects that matter.</h2>
+        <p>We partner with organizations whose work has real impact on real people.</p>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card work-card-large">
+          <img src="images/work-lead.jpg" alt="Modern campus building blending classic and contemporary architecture" loading="lazy">
+          <div class="work-card-body">
+            <span class="work-tag">Government</span>
+            <h3>Minnesota Department of Health</h3>
+            <p>Long-term partnership: multisite Drupal ecosystem, 988 mental health crisis hotline, design system overhaul, technical audits, and ongoing governance consulting.</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/bme-screenshot.jpg" alt="Coulter BME website homepage" loading="lazy">
+          <div class="work-card-body">
+            <span class="work-tag">Higher Ed</span>
+            <h3>Coulter Biomedical Engineering</h3>
+            <p>Emory &amp; Georgia Tech. Redesign for a top-ranked biomedical program &mdash; research profiles, faculty directories, enrollment tools.</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/madison-screenshot.jpg" alt="City of Madison website homepage" loading="lazy">
+          <div class="work-card-body">
+            <span class="work-tag">Government</span>
+            <h3>City of Madison, WI</h3>
+            <p>Full website rebuild for Wisconsin's capital. Architecture overhaul, content migration, and training their internal team to maintain it independently.</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/csb-screenshot.jpg" alt="City of Santa Barbara responsive website design" loading="lazy">
+          <div class="work-card-body">
+            <span class="work-tag">Government</span>
+            <h3>City of Santa Barbara</h3>
+            <p>Multisite platform: city services, library, parks, airport. Multilingual support, real-time parking data, ongoing partnership since 2022.</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="images/uwec-screenshot.jpg" alt="UW Eau Claire website design" loading="lazy">
+          <div class="work-card-body">
+            <span class="work-tag">Higher Ed</span>
+            <h3>University of Wisconsin System</h3>
+            <p>Campus rebranding, student union platforms, agricultural extension sites. Multiple institutions, one trusted partner.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-testimonials">
+    <div class="container">
+      <div class="testimonials-grid">
+        <blockquote class="testimonial">
+          <p>&ldquo;I view this as a long-term relationship and have complete trust in the guidance and capabilities of the EC team.&rdquo;</p>
+          <cite>&mdash; Scott Nelson, Webmaster<br>City of Santa Barbara</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>&ldquo;We had a spectacular experience and felt that we had a partner who had our campus' best interests in mind at all times.&rdquo;</p>
+          <cite>&mdash; Director<br>University of Wisconsin System</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>&ldquo;We trust their expertise to accomplish our goals, and their troubleshooting when things get complicated.&rdquo;</p>
+          <cite>&mdash; City of Bloomington, MN</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section section-why" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Why Electric Citizen</span>
+        <h2>What makes us different.</h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-number">01</div>
+          <h3>We know your world.</h3>
+          <p>Government procurement. Higher ed stakeholder committees. Accessibility mandates. Content governance for 200-page sites. Compliance frameworks that make vendors run. We've lived it for 14 years. That depth isn't something you can prompt into existence.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">02</div>
+          <h3>AI makes us more capable, not less careful.</h3>
+          <p>Other shops use AI to cut costs. We use it to raise quality and expand what's possible. AI-generated test suites, automated accessibility scanning, custom tools we couldn't have built before. The savings go back into your project, not our margins.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">03</div>
+          <h3>Small team. Serious reach.</h3>
+          <p>We're eight people who deliver like twenty. No layers of account managers between you and the people doing the work. Your strategist, designer, and developer know your name &mdash; and they're directly accountable for the result.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">04</div>
+          <h3>We solve the hard problems now.</h3>
+          <p>System integrations. Workflow automation. Custom internal tools. Data pipelines. These used to require massive teams and budgets. AI changed the math. We can build solutions today that weren't feasible a year ago &mdash; at a fraction of the traditional cost.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">05</div>
+          <h3>We're not going anywhere.</h3>
+          <p>Founded in 2012. Our longest client relationships span a decade. We build for the long term because that's how public sector work should be done &mdash; and because that's who we are. Minneapolis-rooted, nationwide reach.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">06</div>
+          <h3>Midwestern honest.</h3>
+          <p>We don't oversell. We don't use buzzwords to sound impressive. If something is a bad idea, we'll say so. If AI isn't the right fit for a part of your project, we'll tell you. In a market full of hype and failed pilots, you deserve a partner who shoots straight.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-cta" id="contact">
+    <div class="container container-narrow">
+      <h2><svg class="bolt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Let's talk about the problem you're trying to solve.</h2>
+      <p>Whether it's a new website, a system integration nightmare, a compliance deadline, or an idea that nobody's been able to build yet &mdash; we'd love to hear about it. No pitch decks. Just a conversation.</p>
+      <div class="cta-actions">
+        <a href="mailto:hello@electriccitizen.com" class="btn btn-gold btn-lg">hello@electriccitizen.com</a>
+        <a href="tel:+16124660020" class="btn btn-outline-light btn-lg">(612) 466-0020</a>
+      </div>
+      <p class="cta-note">Based in Minneapolis, MN. Working with teams nationwide.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <svg class="footer-logo-icon" width="34" height="48" viewBox="0 0 34 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.6698 0L0 25.9524H12.6831V46.2278L33.3828 20.3054H20.6698V0Z" fill="url(#footGrad1)"/>
+            <path d="M33.3826 12.045H25.4258V15.7697H33.3826V12.045Z" fill="url(#footGrad2)"/>
+            <path d="M33.3826 4.32538H25.4258V8.05004H33.3826V4.32538Z" fill="url(#footGrad3)"/>
+            <defs>
+              <linearGradient id="footGrad1" x1="0" y1="23" x2="33.4" y2="23" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/>
+              </linearGradient>
+              <linearGradient id="footGrad2" x1="25.4" y1="13.9" x2="33.4" y2="13.9" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/>
+              </linearGradient>
+              <linearGradient id="footGrad3" x1="25.4" y1="6.2" x2="33.4" y2="6.2" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F0B61B"/><stop offset="1" stop-color="#DD8D28"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div>
+            <span class="footer-name">ELECTRIC CITIZEN</span>
+            <p class="footer-tagline">Smarter solutions for the public good.</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Solutions</h4>
+          <a href="#solutions">Enterprise Websites &amp; CMS</a>
+          <a href="#solutions">Custom Software</a>
+          <a href="#solutions">System Integration</a>
+          <a href="#solutions">AI Integration</a>
+          <a href="#solutions">Accessibility</a>
+          <a href="#solutions">Automation</a>
+          <a href="#solutions">Analytics &amp; SEO</a>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <a href="#work">Our Work</a>
+          <a href="#approach">How We Work</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="mailto:hello@electriccitizen.com">Email Us</a>
+          <a href="https://www.linkedin.com/company/electric-citizen/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/electric.citizen/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Electric Citizen. Minneapolis, MN.</p>
+        <p class="footer-certs">Drupal Certified Partner &bull; Pantheon Premier Partner &bull; Acquia Preferred Partner &bull; MN Preferred Vendor</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          // Close mobile nav if open
+          document.querySelector('.nav-links').classList.remove('open');
+          document.querySelector('.nav-toggle').setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    // Sticky nav
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !expanded);
+      links.classList.toggle('open');
+    });
+
+    // Scroll animations (progressive enhancement)
+    document.body.classList.add('js-animate');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+
+    document.querySelectorAll('.approach-card, .solution-card, .work-card, .why-card, .number-card, .testimonial').forEach(el => {
+      el.classList.add('animate-in');
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
